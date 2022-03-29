@@ -77,8 +77,8 @@ def cleanDFMeta(df):
 def main():
     path = os.getcwd()
     
-    metadata_path = '\\zip files\\meta_All_Beauty_json.gz'
-    reviews_path = '\\zip files\\Reviews_All_Beauty_json.gz'
+    metadata_path = 'zip files\\meta_All_Beauty_json.gz'
+    reviews_path = 'zip files\\Reviews_All_Beauty_json.gz'
     
     metadata_gz_path = os.path.join(path,metadata_path)
     reviews_gz_path = os.path.join(path,reviews_path)
